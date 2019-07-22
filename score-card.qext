@@ -1,0 +1,21 @@
+{
+	"name": "Dimensional Score card",
+	"description": "Dimensional Score Card Extension",
+	"bundle": {
+        "id": "Kab-s Extension Bundle",
+        "name": "Kab-s Extension Bundle",
+        "description": "Qlik Sense Extension bundle from Kabir Rab."
+    },
+	"icon": "list",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Kabir Rab",
+	"homepage": "https://kabonline.net",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "",
+	"preview": "lib/img/preview.png",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

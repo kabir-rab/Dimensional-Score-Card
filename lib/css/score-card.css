@@ -1,0 +1,52 @@
+.qv-object-score-card-container {
+    padding-left: 0.6rem; 
+    height: 100%; 
+    position: relative; 
+    overflow-x: hidden;
+}
+
+.qv-object-score-card .avatar {
+	background: transparent !important;
+}
+
+.qv-object-score-card-card {
+    width: 99.4%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+	border: 0;
+    /*Light shadow*/
+	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+
+.qv-object-score-card-animated {
+	-webkit-animation-duration: 0.75s;
+	animation-duration: 0.75s;	
+}
+
+@-webkit-keyframes qv-object-score-card-fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes qv-object-score-card-fadeInRight {
+    0% {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.qv-object-score-card-fadeInRight {
+    -webkit-animation-name: qv-object-score-card-fadeInRight;
+    animation-name: qv-object-score-card-fadeInRight;
+}

@@ -1,0 +1,49 @@
+<div qv-extension class="qv-object-score-card-spectre qv-object-score-card-container">
+	<div selection="selection($event,$eventId)" id="{{extId}}-{{row[0].qElemNumber}}" class="selectable columns qv-object-score-card-card qv-object-score-card-animated qv-object-score-card-fadeInRight tooltip" data-tooltip="{{row[0].qText}}" data-element="{{row[0].qElemNumber}}" ng-repeat="row in layout.qHyperCube.qDataPages[0].qMatrix">            
+		<div class="column" ng-show="layout.props.show">		
+			<div class="column col-12 text-center" ng-switch on="dimAvatar()">			
+				<figure ng-switch-when="1" class="avatar avatar-lg" title="{{row[0].qText}}" data-initial="{{row[0].qText}}">				
+					<div><img src="{{row[0].qAttrExps.qValues[0].qText}}" alt="T"></div>
+				</figure>
+				<figure ng-switch-when="2" class="avatar avatar-lg" title="Mario" data-initial="Mario">				
+					<div><img src="{{layout.props.location}}" alt="T"></div>
+				</figure>					
+			</div>
+		</div>
+		<div class="column col-12 text-center">		
+			<div class="columns">
+				<div class="col-12">
+					<h4>{{row[0].qText}}</h4> 
+				</div>
+			</div>
+			<div class="columns">
+				<div class="{{viewStyle()}}">
+					<strong>{{layout.qHyperCube.qMeasureInfo[0].qFallbackTitle}}</strong>
+				</div>
+				<div class="{{viewStyle()}}">
+					<strong>{{layout.qHyperCube.qMeasureInfo[1].qFallbackTitle}}</strong>
+				</div>
+				<div class="{{viewStyle()}}">
+					<strong>{{layout.qHyperCube.qMeasureInfo[2].qFallbackTitle}}</strong>
+				</div>
+				<div class="{{viewStyle()}}">
+					<strong>{{layout.qHyperCube.qMeasureInfo[3].qFallbackTitle}}</strong>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="{{viewStyle()}}" style="color: {{row[1].qAttrExps.qValues[0].qText}}">
+					{{row[1].qText}}
+				</div>
+				<div class="{{viewStyle()}}" style="color: {{row[2].qAttrExps.qValues[0].qText}}">
+					{{row[2].qText}}
+				</div>
+				<div class="{{viewStyle()}}" style="color: {{row[3].qAttrExps.qValues[0].qText}}">
+					{{row[3].qText}}
+				</div>
+				<div class="{{viewStyle()}}" style="color: {{row[4].qAttrExps.qValues[0].qText}}">
+					{{row[4].qText}}
+				</div>
+			</div>
+		</div>                           
+	</div>
+</div>
