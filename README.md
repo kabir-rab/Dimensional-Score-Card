@@ -7,7 +7,7 @@ This is a Qlik Sense Score Card (multi KPI) extension based on "Spectre" css fra
 
 Users can also define colours for each measures (static/dynamic).
 
-_IMPORTANT! This extension is part of bundle (Kab's Extension Bundle). Can be used on its own._
+_IMPORTANT! This extension is part of a bundle (Kab's Extension Bundle). Can be used on its own._
 
 # Demo
 <p align="center">
