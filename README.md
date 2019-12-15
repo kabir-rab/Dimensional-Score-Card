@@ -1,4 +1,9 @@
 # Dimensional Score Card
+## _UPDATE: (DEC 2019)_ Added new layout option to provide tiled view.
+<p align="center">
+  <img width="70%" alt="Dimensional-Score-Card Tiled view" src="https://github.com/kabir-rab/Dimensional-Score-Card/blob/master/lib/img/preview2.png">
+</p>
+
 This is a Qlik Sense Score Card (multi KPI) extension based on "Spectre" css framework. This allows up to 4 measures per card. This takes only 1 Dimension. Users can display avatars based on number of conditions - 
 
 - Fixed avatar for all cards.
