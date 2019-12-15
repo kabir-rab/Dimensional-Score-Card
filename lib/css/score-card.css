@@ -1,22 +1,48 @@
 .qv-object-score-card-container {
-    padding-left: 0.6rem; 
+    /* padding-left: 0.6rem; */ 
     height: 100%; 
     position: relative; 
     overflow-x: hidden;
+}
+
+.qv-object-score-card-spectre .container {
+    padding-left: .0rem !important;
+    padding-right: .0rem !important;
 }
 
 .qv-object-score-card .avatar {
 	background: transparent !important;
 }
 
-.qv-object-score-card-card {
-    width: 99.4%;
+.qv-object-score-card h4{
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.qv-object-score-card-card {  
+    width: 93.5% !important;  
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;
 	border: 0;
     /*Light shadow*/
 	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+
+.qv-object-score-card-multiple {  
+    width: 15.5% !important;  
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+	border: 0;
+    /*Light shadow*/
+	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+
+.qv-object-score-card .selected {
+	border: 1.5px solid #009845 !important;
 }
 
 .qv-object-score-card-animated {
